@@ -1,7 +1,13 @@
 # Hypothesis Testing While Loop Python:
-![ScreenShot](r'C:\Users\navarrlx\OneDrive - Danone\PCEP™ – Certified Entry-Level Python Programmer\while-loop.png')
+![ScreenShot](while-loop.png)
 
 ## Project Objectives:
-* write a program which reads the number of blocks the builders have, and outputs the height of the pyramid that can be built using these blocks.
+* take any non-negative and non-zero integer number and name it c0;
 
-* Note: the height is measured by the number of fully completed layers - if the builders don't have a sufficient number of blocks and cannot complete the next layer, they finish their work immediately.
+* if it's even, evaluate a new c0 as c0 ÷ 2;
+
+* otherwise, if it's odd, evaluate a new c0 as 3 × c0 + 1;
+
+* if c0 ≠ 1, skip to point 2.
+
+* Write a program which reads one natural number and executes the above steps as long as c0    remains different from 1. We also want you to count the steps needed to achieve the goal. Your code should output all the intermediate values of c0, too.
