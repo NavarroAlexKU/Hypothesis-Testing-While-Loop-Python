@@ -1,5 +1,5 @@
 # Hypothesis Testing While Loop Python:
-![ScreenShot](pyramid.png)
+![ScreenShot](r'C:\Users\navarrlx\OneDrive - Danone\PCEP™ – Certified Entry-Level Python Programmer\while-loop.png')
 
 ## Project Objectives:
 * write a program which reads the number of blocks the builders have, and outputs the height of the pyramid that can be built using these blocks.
